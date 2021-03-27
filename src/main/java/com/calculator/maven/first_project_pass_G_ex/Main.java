@@ -4,12 +4,17 @@ public class Main {
 
 	public static void main(String[] args) {
 		BasicCalculator simpleC = new BasicCalculator();
-		AdvancedCalculator simpleCa = new AdvancedCalculator();
-		/*System.out.println(simpleC.addition(1.1, 2.2));
-		System.out.println(simpleCa.remainder(10.0, 3.0));
-		System.out.println(simpleCa.square(10.0));*/
-		System.out.println(simpleCa.root(16.0, 2));
-		System.out.println(simpleCa.absoluteValue(-2.2));
+		AdvancedCalculator advCa = new AdvancedCalculator();
+		System.out.println(simpleC.addition(1.1, 2.2));
+		System.out.println(simpleC.subtraction(1.1, 2.2));
+		System.out.println(simpleC.division(1.1, 2.2));
+		System.out.println(simpleC.division(2.2, 0));
+		System.out.println(simpleC.moltiplication(1.1, 2.2));
+		System.out.println(advCa.remainder(10.0, 3.0));
+		System.out.println(advCa.square(10.0));
+		System.out.println(advCa.root(16.0, 2));
+		System.out.println(advCa.absoluteValue(-2.2));
+		System.out.println(advCa.raisedToThePower(2.2, 2));
 	}
 
 }
