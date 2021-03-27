@@ -1,6 +1,6 @@
 package com.calculator.maven.first_project_pass_G_ex;
 
-public class ScientificCalculator extends SimpleCalculator implements AndvanceMathOperations {
+public class AdvancedCalculator extends BasicCalculator implements AndvanceOperations {
 	public double square(double number) {
 		double result = number * number;
 		return result;

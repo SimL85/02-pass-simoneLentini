@@ -1,6 +1,6 @@
 package com.calculator.maven.first_project_pass_G_ex;
 
-public class SimpleCalculator implements BasicMathOperations {
+public class BasicCalculator implements BasicOperations {
 	public double addition(double firstNumber, double secondNumber) {
 		double result = firstNumber + secondNumber;
 		return result;
