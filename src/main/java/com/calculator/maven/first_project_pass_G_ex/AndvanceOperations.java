@@ -6,4 +6,6 @@ public interface AndvanceOperations {
 	public double raisedToThePower(double base, double exponent);
 
 	public double remainder(double dividend, double divisor);
+
+	public double root(double base, double exponent);
 }

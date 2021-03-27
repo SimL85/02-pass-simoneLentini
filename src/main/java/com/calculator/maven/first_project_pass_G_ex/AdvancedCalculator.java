@@ -16,4 +16,9 @@ public class AdvancedCalculator extends BasicCalculator implements AndvanceOpera
 		double result = dividend % divisor;
 		return result;
 	}
+
+	public double root(double base, double exponent) {
+
+		return Math.round(Math.pow(base, 1.0 / exponent));
+	}
 }
