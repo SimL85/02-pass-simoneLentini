@@ -1,6 +1,6 @@
 package com.calculator.maven.first_project_pass_G_ex;
 
-public interface AndvanceOperations {
+public interface AndvancedOperations {
 	public double square(double number);
 
 	public double raisedToThePower(double base, double exponent);
