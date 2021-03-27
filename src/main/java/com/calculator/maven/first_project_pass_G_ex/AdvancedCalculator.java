@@ -21,4 +21,8 @@ public class AdvancedCalculator extends BasicCalculator implements AndvanceOpera
 
 		return Math.round(Math.pow(base, 1.0 / exponent));
 	}
+
+	public double absoluteValue(double number) {
+		return Math.abs(number);
+	}
 }

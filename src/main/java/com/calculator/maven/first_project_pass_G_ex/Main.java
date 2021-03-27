@@ -9,6 +9,7 @@ public class Main {
 		System.out.println(simpleCa.remainder(10.0, 3.0));
 		System.out.println(simpleCa.square(10.0));*/
 		System.out.println(simpleCa.root(16.0, 2));
+		System.out.println(simpleCa.absoluteValue(-2.2));
 	}
 
 }

@@ -8,4 +8,6 @@ public interface AndvanceOperations {
 	public double remainder(double dividend, double divisor);
 
 	public double root(double base, double exponent);
+
+	public double absoluteValue(double number);
 }
