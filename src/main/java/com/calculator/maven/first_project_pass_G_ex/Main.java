@@ -14,7 +14,7 @@ public class Main {
 		System.out.println(advCa.square(10.0));
 		System.out.println(advCa.root(16.0, 2));
 		System.out.println(advCa.absoluteValue(-2.2));
-		System.out.println(advCa.raisedToThePower(2.2, 2));
+		System.out.println(advCa.raisedToThePower(0, 0));
 	}
 
 }

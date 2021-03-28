@@ -17,8 +17,26 @@ public class AdvancedCalculatorTest {
 		double number = input.nextDouble() * 10;
 		double result = number * number;
 		LOG.info("Testing the method square of: " + number + "\n");
-
 		assertEquals(calc.square(number), result, 0);
+		LOG.info("Testing the method square of: " + -2.0 + "\n");
+		assertEquals(calc.square(-2.0), 4.0, 0);
+		LOG.info("Testing the method square of: " + 0.0 + "\n");
+		assertEquals(calc.square(0.0), 0.0, 0);
+
+	}
+
+	@Test
+	public void testRaisedToThePower() {
+		double base = input.nextDouble() * 10;
+		double exponent = input.nextDouble() * 10;
+		double result = Math.pow(base, exponent);
+		LOG.info("Testing the method raisedToThePower with base :" + base + "and exponent " + exponent + "\n");
+		assertEquals(calc.raisedToThePower(base,exponent), result, 0);
+		LOG.info("Testing the method raisedToThePower with base :" + -100 + "and exponent " + 0 + "\n");
+		assertEquals(calc.raisedToThePower(-100,0), 1, 0);
+		LOG.info("Testing the method raisedToThePower with base :" + 0 + "and exponent " + 0 + "\n");
+		assertEquals(calc.raisedToThePower(0,0), 1, 0);
+
 	}
 
 }
