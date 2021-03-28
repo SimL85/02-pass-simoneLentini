@@ -22,7 +22,7 @@ public class BasicCalculator implements BasicOperations {
 	}
 
 	public double moltiplication(double firstNumber, double secondNumber) {
-		double result = firstNumber + secondNumber;
+		double result = firstNumber * secondNumber;
 		return result;
 	}
 

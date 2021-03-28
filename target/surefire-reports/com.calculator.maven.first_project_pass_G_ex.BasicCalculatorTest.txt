@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.calculator.maven.first_project_pass_G_ex.BasicCalculatorTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.083 s - in com.calculator.maven.first_project_pass_G_ex.BasicCalculatorTest
