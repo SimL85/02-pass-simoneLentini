@@ -10,9 +10,9 @@ public class Main {
 		System.out.println(simpleC.division(1.1, 2.2));
 		System.out.println(simpleC.division(2.2, 0));
 		System.out.println(simpleC.moltiplication(1.1, 2.2));
-		System.out.println(advCa.remainder(10.0, 3.0));
+		System.out.println(advCa.remainder(0, 1));
 		System.out.println(advCa.square(10.0));
-		System.out.println(advCa.root(16.0, 2));
+		System.out.println(advCa.root(16.0, 2)+" här");
 		System.out.println(advCa.absoluteValue(-2.2));
 		System.out.println(advCa.raisedToThePower(0, 0));
 	}
