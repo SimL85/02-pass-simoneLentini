@@ -13,62 +13,139 @@ public class BasicCalculatorTest {
 	public static final Logger LOG = Logger.getLogger(BasicCalculator.class.getName());
 
 	@Test
-	public void testAdd() {
-		double firstNumber = input.nextDouble() * 10;
-		double secondNumber = input.nextDouble() * 10;
+	public void testAddPn() {
+		double firstNumber = input.nextDouble();
+		double secondNumber = input.nextDouble();
+		double result = firstNumber + secondNumber;
+
+		LOG.info("Testing the method addition with positive numbers: " + firstNumber + " + " + secondNumber + "\n");
+		assertEquals(simpleC.addition(firstNumber, secondNumber), result, 0);
+
+	}
+
+	@Test
+	public void testAddNn() {
+		double firstNumber = input.nextDouble() * -1;
+		double secondNumber = input.nextDouble() * -1;
+		double result = firstNumber + secondNumber;
+
+		LOG.info("Testing the method addition with negative numbers: " + firstNumber + " + " + secondNumber + "\n");
+		assertEquals(simpleC.addition(firstNumber, secondNumber), result, 0);
+
+	}
+	@Test
+	public void testAddZero() {
+		double firstNumber = input.nextDouble();
+		double secondNumber = 0;
 		double result = firstNumber + secondNumber;
 
 		LOG.info("Testing the method addition with: " + firstNumber + " + " + secondNumber + "\n");
 		assertEquals(simpleC.addition(firstNumber, secondNumber), result, 0);
-		LOG.info("Testing the method addition with: " + -2.2 + " + " + -3.2 + "\n");
-		assertEquals(simpleC.addition(-2.2, -3.2), -5.4, 0);
-		LOG.info("Testing the method addition with: " + 11.12+ " + " + 0 + "\n");
-		assertEquals(simpleC.addition(11.12, 0), 11.12, 0);
+	}
+
+	@Test
+	public void testSubPn() {
+		double firstNumber = input.nextDouble();
+		double secondNumber = input.nextDouble();
+		double result = firstNumber - secondNumber;
+
+		LOG.info("Testing the method subtraction with positive numbers: " + firstNumber + " - " + secondNumber + "\n");
+		assertEquals(simpleC.subtraction(firstNumber, secondNumber), result, 0);
 
 	}
 
 	@Test
-	public void testSub() {
-		double firstNumber = input.nextDouble() * 10;
-		double secondNumber = input.nextDouble() * 10;
+	public void testSubNn() {
+		double firstNumber = input.nextDouble() * -1;
+		double secondNumber = input.nextDouble() * -1;
+		double result = firstNumber - secondNumber;
+
+		LOG.info("Testing the method subtractionwith negative numbers: " + firstNumber + " - " + secondNumber + "\n");
+		assertEquals(simpleC.subtraction(firstNumber, secondNumber), result, 0);
+
+	}
+
+	@Test
+	public void testSubZero() {
+		double firstNumber = input.nextDouble();
+		double secondNumber = 0;
 		double result = firstNumber - secondNumber;
 
 		LOG.info("Testing the method subtraction with: " + firstNumber + " - " + secondNumber + "\n");
 		assertEquals(simpleC.subtraction(firstNumber, secondNumber), result, 0);
-		LOG.info("Testing the method subtraction with: " + -12.54 + " - " + -2.54 + "\n");
-		assertEquals(simpleC.subtraction(-12.54, -2.54), -10.0, 0);
-		LOG.info("Testing the method subtraction with: " + 150.2 + " - " + 0 + "\n");
-		assertEquals(simpleC.subtraction(150.2, 0), 150.2, 0);
 
 	}
 
 	@Test
-	public void testDiv() {
-		double firstNumber = input.nextDouble() * 10;
-		double secondNumber = input.nextDouble() * 10;
+	public void testDivPn() {
+		double firstNumber = input.nextDouble();
+		double secondNumber = input.nextDouble();
 		double result = firstNumber / secondNumber;
+
+		LOG.info("Testing the method division with positve numbers: " + firstNumber + " / " + secondNumber + "\n");
+		assertEquals(simpleC.division(firstNumber, secondNumber), result, 0);
+
+	}
+
+	@Test
+	public void testDivNn() {
+		double firstNumber = input.nextDouble() * -1;
+		double secondNumber = input.nextDouble() * -1;
+		double result = firstNumber / secondNumber;
+
+		LOG.info("Testing the method division with negative numbers: " + firstNumber + " / " + secondNumber + "\n");
+		assertEquals(simpleC.division(firstNumber, secondNumber), result, 0);
+
+	}
+
+	@Test
+	public void testDivZero() {
+		double firstNumber = input.nextDouble();
+		double secondNumber = 0;
+		double result = -0.123456789;
 
 		LOG.info("Testing the method division with: " + firstNumber + " / " + secondNumber + "\n");
 		assertEquals(simpleC.division(firstNumber, secondNumber), result, 0);
-		LOG.info("Testing the method division with: " + -1.0 + " / " + -2.0 + "\n");
-		assertEquals(simpleC.division(-1.0, -2.0), 0.5, 0);
-		LOG.info("Testing the method division with: " + 1.0 + " / " + 0.0 + "\n");
-		assertEquals(simpleC.division(1.0, 0.0), -0.123456789, 0);
 
 	}
 
 	@Test
-	public void testMolt() {
-		double firstNumber = input.nextDouble() * 10;
-		double secondNumber = input.nextDouble() * 10;
+	public void testMoltPn() {
+		double firstNumber = input.nextDouble();
+		double secondNumber = input.nextDouble();
 		double result = firstNumber * secondNumber;
 
-		LOG.info("Testing the method moltiplication with: " + firstNumber + " * " + secondNumber + "\n");
+		LOG.info("Testing the method moltiplication with positive numbers: " + firstNumber + " * " + secondNumber
+				+ "\n");
+		assertEquals(simpleC.moltiplication(firstNumber, secondNumber), result, 0);
+		
+	}
+
+	@Test
+	public void testMoltNn() {
+		double firstNumber = input.nextDouble() * -1;
+		double secondNumber = input.nextDouble() * -1;
+		double result = firstNumber * secondNumber;
+
+		LOG.info("Testing the method moltiplication with negative numbers: " + firstNumber + " * " + secondNumber
+				+ "\n");
 		assertEquals(simpleC.moltiplication(firstNumber, secondNumber), result, 0);
 		LOG.info("Testing the method moltiplication with: " + -10 + " * " + -20 + "\n");
 		assertEquals(simpleC.moltiplication(-10.0, -20.0), 200.0, 0);
 		LOG.info("Testing the method moltiplication with: " + 14.3 + " * " + 0.0 + "\n");
 		assertEquals(simpleC.moltiplication(14.3, 0.0), 0.0, 0);
+
+	}
+	@Test
+	public void testMoltZero() {
+		double firstNumber = input.nextDouble();
+		double secondNumber = 0;
+		double result = firstNumber * secondNumber;
+
+		LOG.info("Testing the method moltiplication with: " + firstNumber + " * " + secondNumber
+				+ "\n");
+		assertEquals(simpleC.moltiplication(firstNumber, secondNumber), result, 0);
+		
 
 	}
 
