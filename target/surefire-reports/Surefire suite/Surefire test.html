@@ -1,0 +1,214 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>27/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Mar 30 14:23:35 CEST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (174 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.calculator.maven.first_project_pass_G_ex.AdvancedCalculatorTest.testAbsoluteValueNn()'><b>testAbsoluteValueNn</b><br>Test class: com.calculator.maven.first_project_pass_G_ex.AdvancedCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testAbsoluteValueNn(com.calculator.maven.first_project_pass_G_ex.AdvancedCalculatorTest)</td></tr>
+<tr>
+<td title='com.calculator.maven.first_project_pass_G_ex.AdvancedCalculatorTest.testAbsoluteValuePn()'><b>testAbsoluteValuePn</b><br>Test class: com.calculator.maven.first_project_pass_G_ex.AdvancedCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testAbsoluteValuePn(com.calculator.maven.first_project_pass_G_ex.AdvancedCalculatorTest)</td></tr>
+<tr>
+<td title='com.calculator.maven.first_project_pass_G_ex.AdvancedCalculatorTest.testAbsoluteValueZero()'><b>testAbsoluteValueZero</b><br>Test class: com.calculator.maven.first_project_pass_G_ex.AdvancedCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testAbsoluteValueZero(com.calculator.maven.first_project_pass_G_ex.AdvancedCalculatorTest)</td></tr>
+<tr>
+<td title='com.calculator.maven.first_project_pass_G_ex.BasicCalculatorTest.testAddNn()'><b>testAddNn</b><br>Test class: com.calculator.maven.first_project_pass_G_ex.BasicCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testAddNn(com.calculator.maven.first_project_pass_G_ex.BasicCalculatorTest)</td></tr>
+<tr>
+<td title='com.calculator.maven.first_project_pass_G_ex.BasicCalculatorTest.testAddPn()'><b>testAddPn</b><br>Test class: com.calculator.maven.first_project_pass_G_ex.BasicCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testAddPn(com.calculator.maven.first_project_pass_G_ex.BasicCalculatorTest)</td></tr>
+<tr>
+<td title='com.calculator.maven.first_project_pass_G_ex.BasicCalculatorTest.testAddZero()'><b>testAddZero</b><br>Test class: com.calculator.maven.first_project_pass_G_ex.BasicCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testAddZero(com.calculator.maven.first_project_pass_G_ex.BasicCalculatorTest)</td></tr>
+<tr>
+<td title='com.calculator.maven.first_project_pass_G_ex.BasicCalculatorTest.testDivNn()'><b>testDivNn</b><br>Test class: com.calculator.maven.first_project_pass_G_ex.BasicCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testDivNn(com.calculator.maven.first_project_pass_G_ex.BasicCalculatorTest)</td></tr>
+<tr>
+<td title='com.calculator.maven.first_project_pass_G_ex.BasicCalculatorTest.testDivPn()'><b>testDivPn</b><br>Test class: com.calculator.maven.first_project_pass_G_ex.BasicCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testDivPn(com.calculator.maven.first_project_pass_G_ex.BasicCalculatorTest)</td></tr>
+<tr>
+<td title='com.calculator.maven.first_project_pass_G_ex.BasicCalculatorTest.testDivZero()'><b>testDivZero</b><br>Test class: com.calculator.maven.first_project_pass_G_ex.BasicCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testDivZero(com.calculator.maven.first_project_pass_G_ex.BasicCalculatorTest)</td></tr>
+<tr>
+<td title='com.calculator.maven.first_project_pass_G_ex.BasicCalculatorTest.testMoltNn()'><b>testMoltNn</b><br>Test class: com.calculator.maven.first_project_pass_G_ex.BasicCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testMoltNn(com.calculator.maven.first_project_pass_G_ex.BasicCalculatorTest)</td></tr>
+<tr>
+<td title='com.calculator.maven.first_project_pass_G_ex.BasicCalculatorTest.testMoltPn()'><b>testMoltPn</b><br>Test class: com.calculator.maven.first_project_pass_G_ex.BasicCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testMoltPn(com.calculator.maven.first_project_pass_G_ex.BasicCalculatorTest)</td></tr>
+<tr>
+<td title='com.calculator.maven.first_project_pass_G_ex.BasicCalculatorTest.testMoltZero()'><b>testMoltZero</b><br>Test class: com.calculator.maven.first_project_pass_G_ex.BasicCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testMoltZero(com.calculator.maven.first_project_pass_G_ex.BasicCalculatorTest)</td></tr>
+<tr>
+<td title='com.calculator.maven.first_project_pass_G_ex.AdvancedCalculatorTest.testRaisedToThePowerNn()'><b>testRaisedToThePowerNn</b><br>Test class: com.calculator.maven.first_project_pass_G_ex.AdvancedCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testRaisedToThePowerNn(com.calculator.maven.first_project_pass_G_ex.AdvancedCalculatorTest)</td></tr>
+<tr>
+<td title='com.calculator.maven.first_project_pass_G_ex.AdvancedCalculatorTest.testRaisedToThePowerPn()'><b>testRaisedToThePowerPn</b><br>Test class: com.calculator.maven.first_project_pass_G_ex.AdvancedCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testRaisedToThePowerPn(com.calculator.maven.first_project_pass_G_ex.AdvancedCalculatorTest)</td></tr>
+<tr>
+<td title='com.calculator.maven.first_project_pass_G_ex.AdvancedCalculatorTest.testRaisedToThePowerZero()'><b>testRaisedToThePowerZero</b><br>Test class: com.calculator.maven.first_project_pass_G_ex.AdvancedCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testRaisedToThePowerZero(com.calculator.maven.first_project_pass_G_ex.AdvancedCalculatorTest)</td></tr>
+<tr>
+<td title='com.calculator.maven.first_project_pass_G_ex.AdvancedCalculatorTest.testRemainderNn()'><b>testRemainderNn</b><br>Test class: com.calculator.maven.first_project_pass_G_ex.AdvancedCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testRemainderNn(com.calculator.maven.first_project_pass_G_ex.AdvancedCalculatorTest)</td></tr>
+<tr>
+<td title='com.calculator.maven.first_project_pass_G_ex.AdvancedCalculatorTest.testRemainderPn()'><b>testRemainderPn</b><br>Test class: com.calculator.maven.first_project_pass_G_ex.AdvancedCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testRemainderPn(com.calculator.maven.first_project_pass_G_ex.AdvancedCalculatorTest)</td></tr>
+<tr>
+<td title='com.calculator.maven.first_project_pass_G_ex.AdvancedCalculatorTest.testRemainderZero()'><b>testRemainderZero</b><br>Test class: com.calculator.maven.first_project_pass_G_ex.AdvancedCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testRemainderZero(com.calculator.maven.first_project_pass_G_ex.AdvancedCalculatorTest)</td></tr>
+<tr>
+<td title='com.calculator.maven.first_project_pass_G_ex.AdvancedCalculatorTest.testRootNn()'><b>testRootNn</b><br>Test class: com.calculator.maven.first_project_pass_G_ex.AdvancedCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testRootNn(com.calculator.maven.first_project_pass_G_ex.AdvancedCalculatorTest)</td></tr>
+<tr>
+<td title='com.calculator.maven.first_project_pass_G_ex.AdvancedCalculatorTest.testRootPn()'><b>testRootPn</b><br>Test class: com.calculator.maven.first_project_pass_G_ex.AdvancedCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testRootPn(com.calculator.maven.first_project_pass_G_ex.AdvancedCalculatorTest)</td></tr>
+<tr>
+<td title='com.calculator.maven.first_project_pass_G_ex.AdvancedCalculatorTest.testRootZero()'><b>testRootZero</b><br>Test class: com.calculator.maven.first_project_pass_G_ex.AdvancedCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testRootZero(com.calculator.maven.first_project_pass_G_ex.AdvancedCalculatorTest)</td></tr>
+<tr>
+<td title='com.calculator.maven.first_project_pass_G_ex.AdvancedCalculatorTest.testSquareNn()'><b>testSquareNn</b><br>Test class: com.calculator.maven.first_project_pass_G_ex.AdvancedCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testSquareNn(com.calculator.maven.first_project_pass_G_ex.AdvancedCalculatorTest)</td></tr>
+<tr>
+<td title='com.calculator.maven.first_project_pass_G_ex.AdvancedCalculatorTest.testSquarePn()'><b>testSquarePn</b><br>Test class: com.calculator.maven.first_project_pass_G_ex.AdvancedCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testSquarePn(com.calculator.maven.first_project_pass_G_ex.AdvancedCalculatorTest)</td></tr>
+<tr>
+<td title='com.calculator.maven.first_project_pass_G_ex.AdvancedCalculatorTest.testSquareZero()'><b>testSquareZero</b><br>Test class: com.calculator.maven.first_project_pass_G_ex.AdvancedCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testSquareZero(com.calculator.maven.first_project_pass_G_ex.AdvancedCalculatorTest)</td></tr>
+<tr>
+<td title='com.calculator.maven.first_project_pass_G_ex.BasicCalculatorTest.testSubNn()'><b>testSubNn</b><br>Test class: com.calculator.maven.first_project_pass_G_ex.BasicCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testSubNn(com.calculator.maven.first_project_pass_G_ex.BasicCalculatorTest)</td></tr>
+<tr>
+<td title='com.calculator.maven.first_project_pass_G_ex.BasicCalculatorTest.testSubPn()'><b>testSubPn</b><br>Test class: com.calculator.maven.first_project_pass_G_ex.BasicCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testSubPn(com.calculator.maven.first_project_pass_G_ex.BasicCalculatorTest)</td></tr>
+<tr>
+<td title='com.calculator.maven.first_project_pass_G_ex.BasicCalculatorTest.testSubZero()'><b>testSubZero</b><br>Test class: com.calculator.maven.first_project_pass_G_ex.BasicCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testSubZero(com.calculator.maven.first_project_pass_G_ex.BasicCalculatorTest)</td></tr>
+</table><p>
+</body>
+</html>

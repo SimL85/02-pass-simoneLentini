@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="27" passed="27" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-30T12:23:35Z" name="Surefire suite" finished-at="2021-03-30T12:23:35Z" duration-ms="174">
+    <groups>
+    </groups>
+    <test started-at="2021-03-30T12:23:35Z" name="Surefire test" finished-at="2021-03-30T12:23:35Z" duration-ms="174">
+      <class name="com.calculator.maven.first_project_pass_G_ex.AdvancedCalculatorTest">
+        <test-method signature="testRaisedToThePowerNn()[pri:0, instance:testRaisedToThePowerNn(com.calculator.maven.first_project_pass_G_ex.AdvancedCalculatorTest)]" started-at="2021-03-30T14:23:35Z" name="testRaisedToThePowerNn" finished-at="2021-03-30T14:23:35Z" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRaisedToThePowerNn -->
+        <test-method signature="testRaisedToThePowerPn()[pri:0, instance:testRaisedToThePowerPn(com.calculator.maven.first_project_pass_G_ex.AdvancedCalculatorTest)]" started-at="2021-03-30T14:23:35Z" name="testRaisedToThePowerPn" finished-at="2021-03-30T14:23:35Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRaisedToThePowerPn -->
+        <test-method signature="testAbsoluteValueZero()[pri:0, instance:testAbsoluteValueZero(com.calculator.maven.first_project_pass_G_ex.AdvancedCalculatorTest)]" started-at="2021-03-30T14:23:35Z" name="testAbsoluteValueZero" finished-at="2021-03-30T14:23:35Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAbsoluteValueZero -->
+        <test-method signature="testSquareNn()[pri:0, instance:testSquareNn(com.calculator.maven.first_project_pass_G_ex.AdvancedCalculatorTest)]" started-at="2021-03-30T14:23:35Z" name="testSquareNn" finished-at="2021-03-30T14:23:35Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSquareNn -->
+        <test-method signature="testSquarePn()[pri:0, instance:testSquarePn(com.calculator.maven.first_project_pass_G_ex.AdvancedCalculatorTest)]" started-at="2021-03-30T14:23:35Z" name="testSquarePn" finished-at="2021-03-30T14:23:35Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSquarePn -->
+        <test-method signature="testAbsoluteValueNn()[pri:0, instance:testAbsoluteValueNn(com.calculator.maven.first_project_pass_G_ex.AdvancedCalculatorTest)]" started-at="2021-03-30T14:23:35Z" name="testAbsoluteValueNn" finished-at="2021-03-30T14:23:35Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAbsoluteValueNn -->
+        <test-method signature="testAbsoluteValuePn()[pri:0, instance:testAbsoluteValuePn(com.calculator.maven.first_project_pass_G_ex.AdvancedCalculatorTest)]" started-at="2021-03-30T14:23:35Z" name="testAbsoluteValuePn" finished-at="2021-03-30T14:23:35Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAbsoluteValuePn -->
+        <test-method signature="testRootZero()[pri:0, instance:testRootZero(com.calculator.maven.first_project_pass_G_ex.AdvancedCalculatorTest)]" started-at="2021-03-30T14:23:35Z" name="testRootZero" finished-at="2021-03-30T14:23:35Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRootZero -->
+        <test-method signature="testSquareZero()[pri:0, instance:testSquareZero(com.calculator.maven.first_project_pass_G_ex.AdvancedCalculatorTest)]" started-at="2021-03-30T14:23:35Z" name="testSquareZero" finished-at="2021-03-30T14:23:35Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSquareZero -->
+        <test-method signature="testRaisedToThePowerZero()[pri:0, instance:testRaisedToThePowerZero(com.calculator.maven.first_project_pass_G_ex.AdvancedCalculatorTest)]" started-at="2021-03-30T14:23:35Z" name="testRaisedToThePowerZero" finished-at="2021-03-30T14:23:35Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRaisedToThePowerZero -->
+        <test-method signature="testRootNn()[pri:0, instance:testRootNn(com.calculator.maven.first_project_pass_G_ex.AdvancedCalculatorTest)]" started-at="2021-03-30T14:23:35Z" name="testRootNn" finished-at="2021-03-30T14:23:35Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRootNn -->
+        <test-method signature="testRootPn()[pri:0, instance:testRootPn(com.calculator.maven.first_project_pass_G_ex.AdvancedCalculatorTest)]" started-at="2021-03-30T14:23:35Z" name="testRootPn" finished-at="2021-03-30T14:23:35Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRootPn -->
+        <test-method signature="testRemainderZero()[pri:0, instance:testRemainderZero(com.calculator.maven.first_project_pass_G_ex.AdvancedCalculatorTest)]" started-at="2021-03-30T14:23:35Z" name="testRemainderZero" finished-at="2021-03-30T14:23:35Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemainderZero -->
+        <test-method signature="testRemainderNn()[pri:0, instance:testRemainderNn(com.calculator.maven.first_project_pass_G_ex.AdvancedCalculatorTest)]" started-at="2021-03-30T14:23:35Z" name="testRemainderNn" finished-at="2021-03-30T14:23:35Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemainderNn -->
+        <test-method signature="testRemainderPn()[pri:0, instance:testRemainderPn(com.calculator.maven.first_project_pass_G_ex.AdvancedCalculatorTest)]" started-at="2021-03-30T14:23:35Z" name="testRemainderPn" finished-at="2021-03-30T14:23:35Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemainderPn -->
+      </class> <!-- com.calculator.maven.first_project_pass_G_ex.AdvancedCalculatorTest -->
+      <class name="com.calculator.maven.first_project_pass_G_ex.BasicCalculatorTest">
+        <test-method signature="testAddZero()[pri:0, instance:testAddZero(com.calculator.maven.first_project_pass_G_ex.BasicCalculatorTest)]" started-at="2021-03-30T14:23:35Z" name="testAddZero" finished-at="2021-03-30T14:23:35Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddZero -->
+        <test-method signature="testAddNn()[pri:0, instance:testAddNn(com.calculator.maven.first_project_pass_G_ex.BasicCalculatorTest)]" started-at="2021-03-30T14:23:35Z" name="testAddNn" finished-at="2021-03-30T14:23:35Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddNn -->
+        <test-method signature="testAddPn()[pri:0, instance:testAddPn(com.calculator.maven.first_project_pass_G_ex.BasicCalculatorTest)]" started-at="2021-03-30T14:23:35Z" name="testAddPn" finished-at="2021-03-30T14:23:35Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddPn -->
+        <test-method signature="testDivNn()[pri:0, instance:testDivNn(com.calculator.maven.first_project_pass_G_ex.BasicCalculatorTest)]" started-at="2021-03-30T14:23:35Z" name="testDivNn" finished-at="2021-03-30T14:23:35Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivNn -->
+        <test-method signature="testDivPn()[pri:0, instance:testDivPn(com.calculator.maven.first_project_pass_G_ex.BasicCalculatorTest)]" started-at="2021-03-30T14:23:35Z" name="testDivPn" finished-at="2021-03-30T14:23:35Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivPn -->
+        <test-method signature="testSubNn()[pri:0, instance:testSubNn(com.calculator.maven.first_project_pass_G_ex.BasicCalculatorTest)]" started-at="2021-03-30T14:23:35Z" name="testSubNn" finished-at="2021-03-30T14:23:35Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubNn -->
+        <test-method signature="testSubPn()[pri:0, instance:testSubPn(com.calculator.maven.first_project_pass_G_ex.BasicCalculatorTest)]" started-at="2021-03-30T14:23:35Z" name="testSubPn" finished-at="2021-03-30T14:23:35Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubPn -->
+        <test-method signature="testMoltZero()[pri:0, instance:testMoltZero(com.calculator.maven.first_project_pass_G_ex.BasicCalculatorTest)]" started-at="2021-03-30T14:23:35Z" name="testMoltZero" finished-at="2021-03-30T14:23:35Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMoltZero -->
+        <test-method signature="testDivZero()[pri:0, instance:testDivZero(com.calculator.maven.first_project_pass_G_ex.BasicCalculatorTest)]" started-at="2021-03-30T14:23:35Z" name="testDivZero" finished-at="2021-03-30T14:23:35Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivZero -->
+        <test-method signature="testMoltNn()[pri:0, instance:testMoltNn(com.calculator.maven.first_project_pass_G_ex.BasicCalculatorTest)]" started-at="2021-03-30T14:23:35Z" name="testMoltNn" finished-at="2021-03-30T14:23:35Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMoltNn -->
+        <test-method signature="testMoltPn()[pri:0, instance:testMoltPn(com.calculator.maven.first_project_pass_G_ex.BasicCalculatorTest)]" started-at="2021-03-30T14:23:35Z" name="testMoltPn" finished-at="2021-03-30T14:23:35Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMoltPn -->
+        <test-method signature="testSubZero()[pri:0, instance:testSubZero(com.calculator.maven.first_project_pass_G_ex.BasicCalculatorTest)]" started-at="2021-03-30T14:23:35Z" name="testSubZero" finished-at="2021-03-30T14:23:35Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubZero -->
+      </class> <!-- com.calculator.maven.first_project_pass_G_ex.BasicCalculatorTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

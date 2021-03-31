@@ -1,0 +1,4 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+first-project-pass-G-ex,com.calculator.maven.first_project_pass_G_ex,Main,70,0,0,0,14,0,2,0,2,0
+first-project-pass-G-ex,com.calculator.maven.first_project_pass_G_ex,BasicCalculator,0,36,0,2,0,12,0,6,0,5
+first-project-pass-G-ex,com.calculator.maven.first_project_pass_G_ex,AdvancedCalculator,0,30,0,0,0,9,0,6,0,6
